@@ -16,8 +16,7 @@
   app.get('/stream', (req, res) => {
     console.log('Streaming requested');
   
-    // Replace 'input_stream_url' with your actual live audio stream URL
-    const inputUrl = 'input_stream_url';
+
   
     // Set the proper headers for streaming
     res.setHeader('Content-Type', 'audio/mpeg');
